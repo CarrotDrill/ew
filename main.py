@@ -1,13 +1,12 @@
 import turtle
 
 turtle.bgcolor("black")
-turtle.setup(800,800)
+turtle.setup(600,600)
 screen = turtle.Screen()
 
 t = turtle.Turtle()
 t.color("red")
 t.shape("turtle")
-t.forward(150)
 t.pensize(5)
 
 def circle():
